@@ -11,7 +11,8 @@ export const RootBottomTab: React.FC = () => {
             <Tab.Screen name="Home" component={HomeScreen} options={{
                 tabBarIcon: ({ color, size }) => (
                     <FontAwesome name="home" color={color} size={size}></FontAwesome>
-                )
+                ),
+                headerShown: false
             }} />
             <Tab.Screen name="Students" component={HomeScreen} options={{
                 tabBarIcon: ({ color, size }) => (
